@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+
+/* Background */
+
+#mainBody{
+    width: 1fr;
+    height: auto;
+    background: linear-gradient(90deg,#5a9c3f 0%, #8ac572 80%);
+    background: -webkit-linear-gradient(90deg,#5a9c3f 0%, #8ac572 80%);
+    background: -moz-linear-gradient(90deg,#5a9c3f 0%, #8ac572 80%);
+    justify-content: center;
+}
+
+/* Gallery */
+.pictureGallery {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(6, 200px);
+    gap: 20px;
+    padding: 50px 20px;
+    margin: 0 250px;
+    justify-self: center;
+}
+
+.imageCard{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card01{
+    background-image: url(/Project_1/Proj4/images/anthony-delanoix-QAwciFlS1g4-unsplash.jpg);
+}
+#card02{
+    background-image: url(/Project_1/Proj4/images/edward-he-uKyzXEc2k_s-unsplash.jpg);
+}
+#card03{
+    background-color: #2d3047;
+    grid-area: 1/3/3/5;
+    text-align: center;
+}
+#card04{
+    background-image: url(/Project_1/Proj4/images/annie-spratt-WCgioEcEVNc-unsplash.jpg);
+}
+#card05{
+    background-image: url(/Project_1/Proj4/images/miltiadis-fragkidis-2Fbn7JWAZkc-unsplash.jpg);
+}
+#card06{
+    background-image: url(/Project_1/Proj4/images/sebastien-goldberg-vgGjc_jHyfU-unsplash.jpg);
+}
+#card07{
+    background-image: url(/Project_1/Proj4/images/zq-lee-_FkDmO8oYjg-unsplash.jpg);
+}
+#card08{
+    background-image: url(/Project_1/Proj4/images/muhamad-rizal-firmansyah-9h_QJnQrNLg-unsplash.jpg);
+}
+#card09{
+    background-image: url(/Project_1/Proj4/images/tania-mousinho-vF0l0bqLRKY-unsplash.jpg);
+}
+#card10{
+    background-color: #fae3e3;
+    grid-area: 4/1/7/3;
+    text-align: center;
+}
+#card11{
+    background-image: url(/Project_1/Proj4/images/erik-eastman-4HG5hlhmZg8-unsplash.jpg);
+}
+#card12{
+    background-image: url(/Project_1/Proj4/images/davi-costa-cG2JQnPfmAw-unsplash.jpg);
+}
+#card13{
+    background-image: url(/Project_1/Proj4/images/meg-von-haartman-RtZUgho6x-s-unsplash.jpg);
+}
+#card14{
+    background-image: url(/Project_1/Proj4/images/julian-yu-_WuPjE-MPHo-unsplash.jpg);
+}
+#card15{
+    background-image: url(/Project_1/Proj4/images/note-thanun-56xpL9-x2A4-unsplash.jpg);
+}
+#card16{
+    background-image: url(/Project_1/Proj4/images/johny-goerend-U_diPCXCBxU-unsplash.jpg);
+}
+
+/* Info cards */
+.cardContent{
+    align-items: center;
+    justify-content: center;
+}
+
+#mainHeader{
+    font-family: "Fredoka", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fae3e3;
+    direction: rtl;
+    padding: 60px 15px 20px 15px;
+}
+
+#subHeader{
+    font-family: "Fredoka", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #2d3047;
+    direction: rtl;
+    padding: 60px 15px 20px 15px;
+}
+
+.bodyText{
+    font-size: 20px;
+    direction: rtl;
+    padding: 10px 40px;
+}
+
+#text01{
+    color: #fae3e3;
+}
+
+#text02{
+    color: #2d3047;
+}
+
+/* Apply form */
+.applyForm{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px;
+}
+
+.fieldLabel{
+    direction: rtl;
+    align-self: flex-end;
+}
+

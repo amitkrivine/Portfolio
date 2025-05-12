@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+
+/* Background gradient */
+
+#backgroundGradient{
+    height: 100vh;
+    width: 1fr;
+    display: flex;
+    background: linear-gradient(90deg,#97143e 0%, #e97d9a 80%);
+    background: -webkit-linear-gradient(90deg,#97143e 0%, #e97d9a 80%);
+    background: -moz-linear-gradient(90deg,#97143e 0%, #e97d9a 80%);
+}
+
+/* Main section */
+
+#mainSection{
+    width: 80%;
+    height: 70%;
+    /*box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;*/
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainSection h1{
+    font-family: "Dancing Script", cursive;
+    text-shadow: 3px 2px 8px #700924be;
+    font-weight: 630;
+    font-size: 130px;
+    text-align: center;
+    line-height: 130px;
+    color: #FFF;
+}
+
+#mainSection h2{
+    font-size: 30px;
+    padding: 40px 0 5px 0;
+    direction: rtl;
+    color: #FFF;
+    text-align: center;
+}
+
+#mainSection p{
+    font-size: 20px;
+    padding: 8px 0;
+    direction: rtl;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Application form */
+
+.applyForm{
+    display: flex;
+    direction: rtl;
+    padding: 20px 0;
+}
+
+.fieldAndTitle{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 10px;
+}
+
+.fieldLabel{
+    font-size: 17px;
+    color: #FFF;
+}
+
+.formField{
+    padding: 8px 20px 8px 30px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #ffffff56;
+}
+
+#submitBtn{
+    width: auto;
+    height: 40px;
+    padding: 8px 32px;
+    background-color: #FFF;
+    color: #2B2D42;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    align-self: flex-end;
+    margin: 0 20px 3px 0;
+    cursor: pointer;
+}
+
+#submitBtn:hover{
+    background-color: #000;
+    color: #FFF;
+}
+
+/* Mobile adjustments */
+
+@media (width < 760px){
+    #backgroundGradient{
+        height: 110vh;
+    }
+
+    #mainSection{
+        width: 92%;
+    }
+
+    #mainSection h1{
+        font-size: 120px;
+        line-height: 110px;
+    }
+
+    #mainSection h2{
+        font-size: 25px;
+    }
+    
+    .applyForm{
+        flex-direction: column;
+    }
+
+    .fieldLabel{
+        align-self: flex-start;
+    }
+
+    .formField{
+        padding: 8px 30px;
+    }
+
+    #submitBtn{
+        margin: auto;
+        margin-top: 22px;
+        padding: 8px 160px;
+    }
+}
+
+@media (width < 490px){
+    #mainSection{
+        width: 94%;
+    }
+
+    #mainSection h1{
+        font-size: 100px;
+        line-height: 100px
+    }
+
+    #mainSection h2{
+        font-size: 20px;
+    }
+
+    #mainSection p{
+        font-size: 16px;
+    }
+    
+    .fieldLabel{
+        font-size: 16px;
+    }
+
+    .formField{
+        padding: 8px 20px;
+    }
+
+    #submitBtn{
+        padding: 8px 130px;
+    }
+}
