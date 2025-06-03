@@ -1,114 +1,165 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Fredoka", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
 }
 
 /*Background*/
-.backgroundContainer{
-    height: 100vh;
-    width: 1fr;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.backgroundContainer {
+  height: 100vh;
+  width: 1fr;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
-.topHalf{
-    background-image: url(/Project_1/Proj2/images/rodion-kutsaiev-PEm_sLmJT-w-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 60%;
+.topHalf {
+  background-image: url(/HTML_Project/Proj2/images/Path\ 15@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60%;
 }
 
-.bottomHalf{
-    background-color: #619EC7;
-    width: 100%;
-    height: 40%;
+.bottomHalf {
+  background-color: #fff;
+  width: 100%;
+  height: 40%;
 }
 
 /*Form*/
-.signupForm{
-    width: 35%;
-    /*height: 540px;*/
-    height: auto;
-    background-color: #2B2D42;
-    color: #d3b99f;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 150px;
-    top: 25vh;
-    padding: 15px 30px;
-    border-radius: 10px;
-    justify-content: right;
-    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.25);
+.signupForm {
+  max-width: 28%;
+  height: auto;
+  background-color: #1a1a1ad4;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 200px;
+  top: 17vh;
+  padding: 60px 50px 90px 50px;
+  border-radius: 2px;
+  justify-content: right;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-.signupForm h2{
-    padding: 15px 0;
-    font-size: 34px;
-    font-weight: 580;
-    color: #FFF;
-    text-align: center;
+.signupForm h2 {
+  padding: 15px 10px;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
 }
 
-.signupForm p{
-    text-align: right;
-    direction: rtl;
-    padding: 15px 0;
+.signupForm p {
+  text-align: right;
+  direction: rtl;
+  font-size: 20px;
+  padding: 6px 0 30px 0;
 }
 
 /*Form fields*/
-.formFields{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+.formFields {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
-.field-and-title{
-    display: flex;
-    flex-direction: column;
-    padding: 4px 0;
+.field-and-title label {
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.field{
-    border-radius: 8px;
-    padding: 8px 25px;
-    margin: 6px 0;
-    border: none;
+.field-and-title {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0;
 }
 
-#submitBtn{
-    width: 80px;
-    padding: 8px 10px;
-    background-color: #D3B99F;
-    color: #2B2D42;
-    font-weight: 480;
-    font-size: 16px;
-    margin: 20px 0;
-    align-self: flex-end;
-    border-radius: 5px;
-    border: 1px solid #000;
+.field {
+  border-radius: 2px;
+  padding: 8px 25px;
+  margin-bottom: 8px;
+  border: 1px solid #d31c75;
 }
 
-#submitBtn:hover{
-    background-color: #CA6680;
-    color: #FFF;
+#submitBtn {
+  padding: 10px 50px;
+  background-color: #d31c75;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 15px 0;
+  align-self: flex-end;
+  border-radius: 2px;
+  border: 1px solid #000;
+  transition: all 0.3s;
+}
+
+#submitBtn:hover {
+  background-color: #b82ba2;
+  color: #fff;
 }
 
 /*Small screen compatibility*/
-@media (width < 780px){
-    .signupForm{
-        width: 88%;
-        padding: 10px 20px;
-        right: auto;
-        top: auto;
-    }
+@media (width < 1200px) {
+  .signupForm {
+    max-width: 40%;
+    top: 22vh;
+    padding: 20px 30px 50px 30px;
+  }
+}
 
-    .backgroundContainer{
-        justify-content: center;
-        align-items: center;
-    }
+@media (width < 780px) {
+  .backgroundContainer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signupForm {
+    max-width: 70%;
+    right: auto;
+    top: auto;
+    padding: 30px 40px 60px 40px;
+  }
+
+  .signupForm p {
+    text-align: center;
+  }
+}
+
+@media (width < 480px) {
+  .topHalf {
+    height: 35%;
+  }
+
+  .bottomHalf {
+    height: 65%;
+  }
+
+  .signupForm {
+    max-width: 85%;
+    padding: 20px 30px 40px 30px;
+    top: 16vh;
+  }
+
+  .signupForm h2 {
+    font-size: 25px;
+    padding: 15px 30px;
+  }
+
+  .signupForm p {
+    font-size: 15px;
+  }
+
+  .field-and-title label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #submitBtn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
 }

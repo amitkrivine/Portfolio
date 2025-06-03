@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Dancing+Script:wght@630&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/HTML_Project/Proj4/style/prj4.css">
     <title>Project #4</title>
 </head>
@@ -19,8 +19,8 @@
         <div class="imageCard" id="card03">
             <div class="cardContent">
 
-                <p id="mainHeader">מחפשים <br>הרפתקה?</p>
-                <p class="bodyText" id="text01">מיטב המומחים שלנו יסדרו לך את הטיול המושלם ביעד לבחירתך, כולל טיסות, מסלול, לינה והמלצות לאטרקציות ומסעדות</p>
+                <h1 id="mainHeader">לגלות את העולם</h1>
+                <p class="bodyText">מיטב המומחים שלנו יסדרו לך את הטיול המושלם ביעד לבחירתך, כולל טיסות, מסלול, לינה והמלצות לאטרקציות ומסעדות</p>
 
             </div>
         </div>
@@ -32,9 +32,11 @@
         <div class="imageCard" id="card09"></div>
         <div class="imageCard" id="card10">
             <div class="cardContent">
+                <div id="cardText">
+                    <p id="subHeader">ספרו לנו על החוויה שלכם</p>
+                    <p class="bodyText" id="formDescription">אז לאן נוסעים? בין אם פיג'י או פריז, הודו או ברזיל, ספארי באפריקה או הזוהר הצפוני - ספרו לנו על החוויה החלומית שלכם ונעזור להגשים אותה!</p>
+                </div>
 
-                <p id="subHeader">אז לאן נוסעים?</p>
-                <p class="bodyText" id="text02">בין אם פיג'י או פריז, הודו או ברזיל, ספארי באפריקה או הזוהר הצפוני - אנחנו כאן לשירותכם!</p>
                 <form action="" class="applyForm">
                     
                     <label for="nameField" class="fieldLabel">שם מלא</label>
@@ -44,9 +46,9 @@
                     <input type="email" class="formField" id="emailField">
                     
                     <label for="tripDescription" class="fieldLabel">איזה טיול מעניין אותך?</label>
-                    <textarea name="description" rows="6" cols="30" id="tripDescription"></textarea>
+                    <textarea name="description" rows="6" cols="30" class="formField" id="tripDescription"></textarea>
                     
-                    <input type="submit" id="submitBtn" value="עדכנו אותי">
+                    <input type="submit" id="submitBtn" value="שליחה">
                     
                 </form>
 

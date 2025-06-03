@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Assistant", sans-serif;
+    font-family: "Varela Round", sans-serif;
+    direction: rtl;
 }
 
 /* Background gradient */
@@ -11,17 +12,17 @@
     height: 100vh;
     width: 1fr;
     display: flex;
-    background: linear-gradient(90deg,#97143e 0%, #e97d9a 80%);
-    background: -webkit-linear-gradient(90deg,#97143e 0%, #e97d9a 80%);
-    background: -moz-linear-gradient(90deg,#97143e 0%, #e97d9a 80%);
+    background: linear-gradient(-90deg,#281EFF 0%, #2DFF8C 80%);
+    background: -webkit-linear-gradient(-90deg,#281EFF 0%, #2DFF8C 80%);
+    background: -moz-linear-gradient(-90deg,#281EFF 0%, #2DFF8C 80%);
 }
 
 /* Main section */
 
 #mainSection{
-    width: 80%;
-    height: 70%;
-    /*box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;*/
+    width: 100%;
+    max-width: 1100px;
+    height: 407px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -30,27 +31,27 @@
 }
 
 #mainSection h1{
-    font-family: "Dancing Script", cursive;
+    font-family: "Satisfy", cursive;
     text-shadow: 3px 2px 8px #700924be;
-    font-weight: 630;
-    font-size: 130px;
+    font-weight: 400;
+    font-size: 160px;
     text-align: center;
     line-height: 130px;
     color: #FFF;
+    text-shadow: 0px 0px 36px #00000087;
 }
 
 #mainSection h2{
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 300;
     padding: 40px 0 5px 0;
-    direction: rtl;
     color: #FFF;
     text-align: center;
 }
 
 #mainSection p{
-    font-size: 20px;
+    font-size: 16px;
     padding: 8px 0;
-    direction: rtl;
     text-align: center;
     color: #FFF;
 }
@@ -59,8 +60,12 @@
 
 .applyForm{
     display: flex;
-    direction: rtl;
     padding: 20px 0;
+}
+
+.fieldsWrapper{
+    display: flex;
+    margin: 0 10px;
 }
 
 .fieldAndTitle{
@@ -70,75 +75,136 @@
 }
 
 .fieldLabel{
-    font-size: 17px;
+    font-size: 16px;
     color: #FFF;
 }
 
 .formField{
-    padding: 8px 20px 8px 30px;
-    border-radius: 5px;
+    padding: 8px;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
     border: 2px solid #FFF;
     background-color: #ffffff56;
 }
 
 #submitBtn{
-    width: auto;
-    height: 40px;
-    padding: 8px 32px;
+    width: 200px;
+    height: 50px;
+    padding: 8px;
     background-color: #FFF;
-    color: #2B2D42;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 1px solid #000;
+    color: #1c1c1c;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
     align-self: flex-end;
-    margin: 0 20px 3px 0;
+    margin: 0 10px 4px 10px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 #submitBtn:hover{
-    background-color: #000;
-    color: #FFF;
+    background-color: #04069c;
+    color: #ffffff;
 }
 
-/* Mobile adjustments */
+/* Screen size adjustments */
 
-@media (width < 760px){
-    #backgroundGradient{
-        height: 110vh;
-    }
-
-    #mainSection{
-        width: 92%;
-    }
-
+@media (width < 1100px){
     #mainSection h1{
-        font-size: 120px;
-        line-height: 110px;
+        font-size: 120px;    
+        padding: 0 30px;
+        row-gap: 10px;
     }
 
     #mainSection h2{
-        font-size: 25px;
+        font-size: 32px;
+        font-weight: 300;
+        padding: 40px 30px 5px 30px;
+        color: #FFF;
+        text-align: center;
+    }
+    
+    #mainSection p{
+        padding: 10px 80px;
     }
     
     .applyForm{
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
-    .fieldLabel{
-        align-self: flex-start;
+    .fieldsWrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .formField{
-        padding: 8px 30px;
+        width: 350px;
     }
 
     #submitBtn{
-        margin: auto;
-        margin-top: 22px;
-        padding: 8px 160px;
+        margin-top: 20px;
+        width: 250px;
     }
 }
 
+
+@media (width < 480px){
+    #mainSection {
+        width: 90%;
+    }
+
+    #mainSection h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    #mainSection h2 {
+        font-size: 18px;
+        padding: 20px 10px 5px 10px;
+    }
+
+    #mainSection p {
+        font-size: 16px;
+        padding: 10px 30px;
+        margin-bottom: 50px;
+    }
+    
+    .formField {
+        height: 36px;
+        width: 100%;
+    }
+
+    .applyForm{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .fieldsWrapper{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .fieldAndTitle{
+        width: 100%;
+    }
+
+    .fieldLabel {
+        font-size: 11px;
+    }
+
+    #submitBtn {
+        font-size: 11px;
+        width: 100%;
+        height: 33px;
+        color: #2823fd;
+        margin: 20px 20px;
+    }
+}
+/*
 @media (width < 490px){
     #mainSection{
         width: 94%;
@@ -168,4 +234,4 @@
     #submitBtn{
         padding: 8px 130px;
     }
-}
+}*/
