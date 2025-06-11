@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+    background-color: #0f5853;
+    margin: 0 30px;
+}
+
+/* Main Subject */
+.container {
+    width: 70%;
+    max-width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.loginForm, .imageContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+/* Form side */
+.loginForm {
+    background-color: #f3cb74;
+    border-radius: 0 30px 30px 0;
+    flex-direction: column;
+}
+
+.loginForm h2 {
+    padding: 16px;
+    font-size: 48px;
+    color: #2D333F;
+}
+
+.field {
+    border-radius: 14px;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border: none;
+}
+
+#submitBtn {
+    padding: 10px 30px;
+    border-radius: 14px;
+    margin: 20px 0;
+    background-color: #0f5853;
+    color: #FFF;
+    border: none;
+}
+
+.loginForm a {
+    color: #2D333F;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+/* Form hovers */
+#submitBtn:hover {
+    background-color: #E94F37;
+}
+
+.loginForm a:hover {
+    color: #FFF;
+}
+
+/* Image side */
+.imageContainer {
+    background-color: #FFF!important;
+    border-radius: 30px 0 0 30px;
+}
+
+.imageContainer img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.75s;
+}
+
+.imageContainer img:hover {
+    transform: translateY(-8px);
+}
+
+/* Screen adjustment */
+@media (width < 1000px) {
+    .container{
+        width: 85%;
+        max-width: 680px;
+        height: 780px;
+        flex-direction: column-reverse;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .loginForm, .imageContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .imageContainer {
+        height: 40%;
+        border-radius: 30px 30px 0 0;
+    }
+
+    .loginForm {
+        height: 60%;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .imageContainer img {
+        height: 80%;
+        width: auto;
+    }
+}
+
+@media (width < 520px) {
+    .container {
+        padding: 2px;
+        margin-top: 25px;
+    }
+    .imageContainer img {
+        max-width: 100%;
+    }
+    .field {
+        padding: 10px 10px;
+    }
+}
+
+@media (width < 350px) {
+    .imageContainer img {
+        max-height: 60%;
+    }
+}
+
