@@ -18,7 +18,7 @@
 .imgSide {
     width: 55%;
     height: 100%;
-    background-image: url(../projects/Project5_Coffee/images/Coffee@2x.png);
+    background-image: url(/projects/Project5_Coffee/images/Coffee@2x.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
