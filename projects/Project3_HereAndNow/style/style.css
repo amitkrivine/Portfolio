@@ -180,8 +180,9 @@
     }
 
     .fieldsWrapper{
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .fieldAndTitle{

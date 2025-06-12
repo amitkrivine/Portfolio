@@ -14,7 +14,7 @@
   position: relative;
 }
 .topHalf {
-  background-image: url(/projects/Project2_LeadYouForward/images/Path\ 15@2x.png);
+  background-image: url(../images/Path\ 15@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
