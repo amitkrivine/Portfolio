@@ -33,10 +33,10 @@
 }
 
 #card01{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/01_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/01_x2.png);
 }
 #card02{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/02_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/02_x2.png);
 }
 #card03{
     background-color: #020253;
@@ -46,22 +46,22 @@
     align-items: center;
 }
 #card04{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/03_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/03_x2.png);
 }
 #card05{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/04_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/04_x2.png);
 }
 #card06{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/05_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/05_x2.png);
 }
 #card07{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/06_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/06_x2.png);
 }
 #card08{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/07_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/07_x2.png);
 }
 #card09{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/08_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/08_x2.png);
 }
 #card10{
     background-color: #8e097c;
@@ -71,22 +71,22 @@
     align-items: center;
 }
 #card11{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/09_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/09_x2.png);
 }
 #card12{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/10_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/10_x2.png);
 }
 #card13{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/11_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/11_x2.png);
 }
 #card14{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/12_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/12_x2.png);
 }
 #card15{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/13_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/13_x2.png);
 }
 #card16{
-    background-image: url(/projects/Project4_DiscoverTheWorld/images/14_x2.png);
+    background-image: url(../projects/Project4_DiscoverTheWorld/images/14_x2.png);
 }
 
 /* Information cards */

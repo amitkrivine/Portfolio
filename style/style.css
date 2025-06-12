@@ -130,7 +130,7 @@ header {
 .intro {
   height: 400px;
   width: 100%;
-  background-image: url(/images/desert.png);
+  background-image: url(../images/desert.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -178,22 +178,22 @@ h1 {
 }
 
 #softwareIcon1 {
-  background-image: url(/images/Logo_HTML.png);
+  background-image: url(../images/Logo_HTML.png);
 }
 #softwareIcon2 {
-  background-image: url(/images/Logo_CSS.png);
+  background-image: url(../images/Logo_CSS.png);
 }
 #softwareIcon3 {
-  background-image: url(/images/Logo_GIT.webp);
+  background-image: url(../images/Logo_GIT.webp);
 }
 #softwareIcon4 {
   background-image: url(/images/Logo_GitHub.png);
 }
 #softwareIcon5 {
-  background-image: url(/images/Logo_PS.png);
+  background-image: url(../images/Logo_PS.png);
 }
 #softwareIcon6 {
-  background-image: url(/images/Logo_Canva.png);
+  background-image: url(../images/Logo_Canva.png);
 }
 
 /* About me section */
@@ -516,27 +516,27 @@ h1 {
 }
 
 #footerIcon1 {
-  background-image: url(/images/FacebookLogo_white.png);
+  background-image: url(../images/FacebookLogo_white.png);
 }
 
 #footerIcon2 {
-  background-image: url(/images/LinkedInLogo_white.png);
+  background-image: url(../images/LinkedInLogo_white.png);
 }
 
 #footerIcon3 {
-  background-image: url(/images/PhoneLogo_white.png);
+  background-image: url(../images/PhoneLogo_white.png);
 }
 
 #footerIcon4 {
-  background-image: url(/images/WhatsappLogo_white.png);
+  background-image: url(../images/WhatsappLogo_white.png);
 }
 
 #footerIcon5 {
-  background-image: url(/images/emailLogo.png);
+  background-image: url(../images/emailLogo.png);
 }
 
 #footerIcon6 {
-  background-image: url(/images/LocationLogo_white.png);
+  background-image: url(../images/LocationLogo_white.png);
 }
 
 /* Footer - Bottom section*/
