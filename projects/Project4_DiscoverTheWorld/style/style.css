@@ -33,10 +33,10 @@
 }
 
 #card01{
-    background-image: url(../images/01_x2.png);
+    background-image: url(../images/01.jpg);
 }
 #card02{
-    background-image: url(../images/02_x2.png);
+    background-image: url(../images/02.jpg);
 }
 #card03{
     background-color: #020253;
@@ -46,22 +46,22 @@
     align-items: center;
 }
 #card04{
-    background-image: url(../images/03_x2.png);
+    background-image: url(../images/03.jpg);
 }
 #card05{
-    background-image: url(../images/04_x2.png);
+    background-image: url(../images/04.jpg);
 }
 #card06{
-    background-image: url(../images/05_x2.png);
+    background-image: url(../images/05.jpg);
 }
 #card07{
-    background-image: url(../images/06_x2.png);
+    background-image: url(../images/06.jpg);
 }
 #card08{
-    background-image: url(../images/07_x2.png);
+    background-image: url(../images/07.jpg);
 }
 #card09{
-    background-image: url(../images/08_x2.png);
+    background-image: url(../images/08.jpg);
 }
 #card10{
     background-color: #8e097c;
@@ -71,22 +71,22 @@
     align-items: center;
 }
 #card11{
-    background-image: url(../images/09_x2.png);
+    background-image: url(../images/09.jpg);
 }
 #card12{
-    background-image: url(../images/10_x2.png);
+    background-image: url(../images/10.jpg);
 }
 #card13{
-    background-image: url(../images/11_x2.png);
+    background-image: url(../images/11.jpg);
 }
 #card14{
-    background-image: url(../images/12_x2.png);
+    background-image: url(../images/12.jpg);
 }
 #card15{
-    background-image: url(../images/13_x2.png);
+    background-image: url(../images/13.jpg);
 }
 #card16{
-    background-image: url(../images/14_x2.png);
+    background-image: url(../images/14.jpg);
 }
 
 /* Information cards */
